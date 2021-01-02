@@ -1,0 +1,34 @@
+.text-left{ 
+    padding-left: 5vw;
+}
+.about-us-info {
+    list-style: none;
+    padding-left: 0px;
+}
+#more {
+    display:none;
+}
+#more-btn {
+    border-color:rgb(54,54,54);
+}
+#more-btn:hover {
+    cursor:pointer; 
+}
+.card {
+    height: auto;
+}
+.card-row {
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+.indent {
+    padding-left: 3vw;
+}
+.pad-bottom {
+    padding-bottom: 2vh;
+}
+.card-row .col-md-3 {
+    max-width: 410px;
+    padding-bottom: 3vh;
+    align-items: center;
+}

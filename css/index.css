@@ -1,0 +1,19 @@
+.front-page-logo {
+    max-width: 35vh;
+    height: auto;
+    padding-top: 3vh;
+}
+.row {
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+.club-info {
+    padding-top: 5vh;
+}
+.club-info h3{
+    text-align: center;
+}
+.club-info h4 {
+    font-weight: normal;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.nav-container {
+    background-color: rgb(54,54,54);
+}
+.nav-font-size {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.selected {
+    font-weight: normal;
+}
+.nav-item {
+    padding-right: 20px;
+}
+.header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    padding-right: 20px;
+}
+.nav-container a {
+    color: white;
+}
+.nav-top-right {
+    float: right;
+    list-style: none;
+    padding: none;
+}
+.top-row {
+    padding-top: 1vh
+}
+

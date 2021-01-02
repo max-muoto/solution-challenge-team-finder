@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    
+
+    <link rel="stylesheet" type="text/css" href="css/sitewide.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+    <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v7cbba9dce83f2a54b727914bb06dd524b80e611a7d1fe33e121163235013f003/developers/images/favicon.png">
+
+
+</head>
+
+<body>
+    
+        
+
+    <div class="nav-container">
+        <div class="navbar navbar-expand-sm navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
+                aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-content">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="index.html">
+                            <h3 class="not nav-font-size selected">Home</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/about.html">
+                            <h3 class="not nav-font-size">About</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/contact.html">
+                            <h3 class="not nav-font-size">Contact</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="#">Developer Student Clubs</a>
+            <div class="nav-top-right">
+                <ul class="navbar-nav navbar-expand">
+                    <li class="nav-item">
+                        <a href="https://twitter.com/googledevs" target=”_blank”>
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row top-row">
+        <div class="col-md-3 text-center">
+            <img class="front-page-logo" src="images/Google_DSC.png" style="width:300px;height:300px;"></img>
+        </div>
+        <div class="col-md-6 club-info">
+            <h3>Developer Students Clubs</h3>
+            <hr>
+            <h4>Find A Team For The DSC Solution Challenge</h4>
+        </div>
+        <div class="col-md-3 text-center">
+            <img class="front-page-logo" src="images/Group_Coding.jpg" style="width:300px;height:300px;"></img>
+        </div>
+    </div>
+    <style type="text/css">
+    
+        .form-group label {font-weight: bold}
+    </style>
+    <div class="container">
+    <div class="row">
+        <div class="col-12">
+        <form method="" action="process.php">
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" name="name" class="form-control" id="name" aria-describedby="email" placeholder="Enter Name..." required ="">
+            </div>
+
+            <div class="form-group">
+                <label for="inputEmail">Email Address</label>
+                <input type="email" name="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter Email..." required ="">
+                <small id="emailHelp" class="form-text text-muted">We'll only share your email with whoever you get matched to.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="inputSchool">What School Do You Go To?</label>
+                <select name="school" class="form-control" required>
+                    <option value="">Select...</option>
+                    <option value="UNC">University of North Carolina at Chapel Hill</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="inputAge">What Year Are You?</label>
+                <select name="year" class="form-control" required>
+                    <option value="">Select...</option>
+                    <option value="Freshman">Freshman</option>
+                    <option value="Sophomore">Sophomore</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                    <option value="Masters/PHD">Masters/PHD</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="inputExperience">What's Your Programming Experience?</label>
+                <select name="experience" class="form-control" required>
+                    <option value="">Select...</option>
+                    <option value="None">None</option>
+                    <option value="Less Than 1 Year">Less Than 1 Year</option>
+                    <option value="1-2 Years">1-2 Years</option>
+                    <option value="2+ Years">2+ Years</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="inputMajor">What Is Your Major?</label>
+                <select name="major" class="form-control" required>
+                    <option value="">Select...</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Information Science">Information Science</option>
+                    <option value="Business">Business</option>
+                    <option value="Statistics">Statistics</option>
+                    <option value="Pre-Med">Pre-Med</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="inputCareer">What Career Are You Interested In Pursuing?</label>
+                <select name="career" class="form-control" required>
+                    <option value="">Select...</option>
+                    <option value="Software Engineer">Software Engineer</option>
+                    <option value="Consultant">Consultant</option>
+                    <option value="Financial Analyst">Financial Analyst</option>
+                    <option value="Product Manager">Product Manager</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect2">What Google Technologies Are You Interested In?</label>
+                <select name="tech[]" multiple class="form-control" required>
+                    <option value="Firebase">Firebase</option>
+                    <option value="Tensor Flow">Tensor Flow</option>
+                    <option value="Flutter">Flutter</option>
+                    <option value="Android">Android</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect2">What Programming Languages Do You Know?</label>
+                <select name="languages[]" multiple class="form-control" required>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="C++">C++</option>
+
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+
+    
+</div>
+</div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+

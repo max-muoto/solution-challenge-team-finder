@@ -1,0 +1,12 @@
+.pytest_cache
+.vscode
+__pycache__
+.DS_Store
+data.csv
+test.csv
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
